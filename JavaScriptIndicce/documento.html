@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+    <script>
+
+        function escribir()
+        {
+            var caja = document.getElementById("txttexto");
+            var ccc = document.getElementById("capa");
+            ccc.innerHTML = caja.value;
+            
+        }
+    </script>
+
+</head>
+<body>
+    <input type="text" id="txttexto" />
+    <input type="button" value="Aceptar" onclick="escribir()"/>
+
+    <div id="capa">
+
+
+    </div>
+</body>
+</html>
